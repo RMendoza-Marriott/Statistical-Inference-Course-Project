@@ -11,3 +11,17 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
  
 
+---
+Synopsis
+The project consists of two parts:
+1. Simulation Exercise to explore inference
+2. Basic inferential analysis using the ToothGrowth data in the R datasets package
+
+Part 1: Simulation Exercise
+
+The task is to investigate the exponential distribution in R and compare it with the Central Limit Theorem. The exponential distribution will be simulated in 
+R with `rexp(n,lambda)` where `lambda is the rate parameter`. The mean of exponential distribution and the standard deviation are both `1/lambda` where `lambda = 0.2`, 
+and distribution of averages of `40 exponentials` and will perform `1000 simulations`.
+
+
+
