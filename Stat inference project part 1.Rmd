@@ -94,9 +94,11 @@ g <- ggplot(d, aes(x = mean_sim_data)) +
                     title="Normal Distribution Comparision")
 g
 ```
-The above plot indicated that density curve is similar to normal distribution curve.
 
-Q-Q Normal Plot also indicates the normal distribution
+`1.4: The above plot indicated that density curve is similar to normal distribution curve.`
+
+`Q-Q Normal Plot also indicates the normal distribution`
+
 ```{r}
 qqnorm(mean_sim_data)
  qqline(mean_sim_data, col = "magenta")
