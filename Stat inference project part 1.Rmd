@@ -1,0 +1,13 @@
+---
+title: "Stat inference part 1"
+author: "Roddy Mendoza Marriott"
+date: "2025-09-02"
+output:
+  pdf_document: default
+  html_document: default
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+ 
+
