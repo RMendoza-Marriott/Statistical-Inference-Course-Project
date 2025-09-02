@@ -22,16 +22,19 @@ library(datasets)
 ```
 
 1. Load the ToothGrowth data and perform some basic exploratory data analyses
-```{r}
+
+```{r, message=FALSE,warning=FALSE}
 data(ToothGrowth)
 str(ToothGrowth)
 head(ToothGrowth, 4)
 tail(ToothGrowth, 4)
 ```
+
 Summary of the data
 ```{r}
 summary(ToothGrowth)
 ```
+
 2.Basic summary of the data
 ```{r}
 # Calculatiing the mean of len based on the supplement methods
