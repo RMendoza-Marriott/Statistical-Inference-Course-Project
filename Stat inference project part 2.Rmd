@@ -1,0 +1,11 @@
+---
+title: "Stat inference part 2 - Module 6: Stasticial Inference"
+author: "Roddy Mendoza Marriott"
+date: "2025-09-02"
+output:
+  html_document: default
+  pdf_document: default
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
