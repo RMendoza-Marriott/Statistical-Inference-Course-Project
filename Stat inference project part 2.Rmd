@@ -53,6 +53,7 @@ ggplot(aes(x=supp, y=len), data=ToothGrowth) + geom_boxplot(aes(fill=supp))+
 ```
 
 3. Using confidence intervals to compare growth of tooth by supplement dose
+
 ```{r, message=FALSE,warning=FALSE}
 unique(ToothGrowth$dose)
 ```
@@ -60,7 +61,7 @@ unique(ToothGrowth$dose)
 There are 3 dose groups: 0.5, 1, and 2
 Graph shows relationship between Tooth length to Dose
 
-```{r}
+```{r, message=FALSE,warning=FALSE}
 g <- ggplot(aes(x = factor(dose), y = len), data = ToothGrowth) + 
     geom_boxplot(aes(fill = factor(dose)))
 g <- g + labs(title="Tooth Lenght relationship to Dosage")
