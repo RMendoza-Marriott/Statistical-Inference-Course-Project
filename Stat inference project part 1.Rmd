@@ -78,8 +78,9 @@ theoretical_variance
 ```
 
 
-Question 3: Show that the distribution is approximately normal
-Histogram with Density and sample means:
+`1.3: Show that the distribution is approximately normal`
+`Histogram with Density and sample means:`
+
 ```{r}
 d <- data.frame(mean_sim_data)
 t <- data.frame(theoretical_mean)
