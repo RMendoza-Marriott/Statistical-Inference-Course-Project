@@ -75,7 +75,7 @@ t.test(len ~ supp, ToothGrowth[ToothGrowth$dose == .5, ])
 ```
 
 T-test for dose 1 mg:
-```{r}
+```{r, message=FALSE,warning=FALSE}
 t.test(len ~ supp, ToothGrowth[ToothGrowth$dose == 1, ])
 ```
 
