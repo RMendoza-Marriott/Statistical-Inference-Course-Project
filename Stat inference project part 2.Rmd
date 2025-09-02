@@ -31,7 +31,8 @@ tail(ToothGrowth, 4)
 ```
 
 Summary of the data
-```{r}
+
+```{r, message=FALSE,warning=FALSE}
 summary(ToothGrowth)
 ```
 
