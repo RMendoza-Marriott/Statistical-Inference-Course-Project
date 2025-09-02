@@ -76,6 +76,8 @@ theoretical_dev
 theoretical_variance <- ((1/lambda)*(1/sqrt(n)))^2
 theoretical_variance
 ```
+
+
 Question 3: Show that the distribution is approximately normal
 Histogram with Density and sample means:
 ```{r}
