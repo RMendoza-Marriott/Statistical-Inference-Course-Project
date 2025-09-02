@@ -85,6 +85,6 @@ T-test for dose 2 mg:
 t.test(len ~ supp, ToothGrowth[ToothGrowth$dose == 2, ])
 ```
 
-Conclusion:
+`Remarks:`
 
 For all three dosages, the p-value of this test is is less than 0.5, a evidence that we can reject the null hypothesis. We can infer that supplement type has no effect on tooth growth, and increasing the dose level leads to increased tooth growth.
